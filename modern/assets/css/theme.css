@@ -792,7 +792,7 @@ pre code {
 @media (min-width:1200px) {
     .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xs, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
         padding-right: 15px;
-        padding-left: 15px;
+        padding-left: 15px
     }
 }
 
@@ -8074,8 +8074,7 @@ body#checkout #footer {
 }
 
 #products .product-thumbnail, .featured-products .product-thumbnail, .product-accessories .product-thumbnail, .product-miniature .product-thumbnail {
-    display: block;
-    /* align-items:  center; */
+    display: block
 }
 
 #products .product-title a, .featured-products .product-title a, .product-accessories .product-title a, .product-miniature .product-title a {
@@ -8089,8 +8088,6 @@ body#checkout #footer {
 #products .thumbnail-container, .featured-products .thumbnail-container, .product-accessories .thumbnail-container, .product-miniature .thumbnail-container {
     position: relative;
     margin-bottom: 1.563rem;
-    /* height: 318px; */
-    /* width: 257px; */
     background: #fff;
     box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, .2);
 }
@@ -8155,7 +8152,7 @@ body#checkout #footer {
     margin: auto;
     height: 3.125rem;
     box-shadow: 0 -5px 10px -5px rgba(0, 0, 0, .2);
-    transition: bottom .3s;
+    transition: bottom .3s
 }
 
 #products .highlighted-informations .quick-view, .featured-products .highlighted-informations .quick-view, .product-accessories .highlighted-informations .quick-view, .product-miniature .highlighted-informations .quick-view {
@@ -8168,16 +8165,12 @@ body#checkout #footer {
 }
 
 #products .product-description, .featured-products .product-description, .product-accessories .product-description, .product-miniature .product-description {
-    /* position: absolute; */
     z-index: 4;
-    /* background: #fff; */
-    /* width: 257px; */
     bottom: 0;
     height: 70px;
 }
 
 #products img, .featured-products img, .product-accessories img, .product-miniature img {
-    /* margin-left: 4px; */
     margin:  auto;
     padding:  auto;
 }
@@ -10791,7 +10784,7 @@ li.product-flag:not(.discount):not(.on-sale)~li.product-flag {
         width: auto
     }
     #products .product-miniature, .featured-products .product-miniature {
-        margin: 0 auto;
+        margin: 0 auto
     }
     .sub-menu {
         left: 0;
