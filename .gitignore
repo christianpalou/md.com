@@ -16,3 +16,5 @@ debug\.tpl
 core\.js
 
 _libraries/
+
+\.vscode/
