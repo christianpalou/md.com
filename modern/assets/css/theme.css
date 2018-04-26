@@ -477,7 +477,7 @@ output {
 }
 
 .h1, h1 {
-    font-size: 1.375rem
+    font-size: 1.100rem
 }
 
 .h2, h2 {
@@ -6129,7 +6129,6 @@ p {
 }
 
 .h1, .h2, .h3 {
-    text-transform: uppercase;
     color: #232323
 }
 
@@ -6714,9 +6713,6 @@ input:active:-moz-placeholder, textarea:active:-moz-placeholder {
 @media (max-width:767px) {
     .header-top .search-widget {
         float: none;
-        padding-top: 60px;
-        /* padding: 0 .9375rem; */
-        /* margin-top: 200px; */
     }
     .header-top .search-widget form {
         margin: 0 auto
@@ -6724,6 +6720,22 @@ input:active:-moz-placeholder, textarea:active:-moz-placeholder {
     .header-top .search-widget form input[type=text] {
         min-width: inherit;
         background: #fff
+    }
+}
+
+@media (max-width:767px) {
+   
+    .padding-mobile {
+        padding-top: 45px;
+    }
+    .padding-search{
+        margin-left: 15px;
+    }
+    .hide-search-mobile{
+        display: none;
+        margin-top: 10px;
+        padding-right: 0px;
+        padding-left: 0px;
     }
 }
 
@@ -6795,7 +6807,6 @@ input:active:-moz-placeholder, textarea:active:-moz-placeholder {
 }
 
 #mobile_top_menu_wrapper {
-    margin-top: .625rem;
     padding-bottom: .625rem;
     background: #fff
 }
@@ -8117,8 +8128,9 @@ body#checkout #footer {
 }
 
 #products .products-section-title, .featured-products .products-section-title, .product-accessories .products-section-title, .product-miniature .products-section-title {
-    text-align: center;
-    margin-bottom: 1.5rem
+    margin-left: 10px;
+    margin-bottom: 1rem;
+    margin-top:10px;
 }
 
 #products .product-title, .featured-products .product-title, .product-accessories .product-title, .product-miniature .product-title {
@@ -10616,7 +10628,7 @@ li.product-flag:not(.discount):not(.on-sale)~li.product-flag {
 #wrapper {
     background: #f1f1f1;
     box-shadow: inset 0 2px 5px 0 rgba(0, 0, 0, .11);
-    padding-top: 1.563rem
+    padding-top: 0.5rem
 }
 
 #wrapper .banner {

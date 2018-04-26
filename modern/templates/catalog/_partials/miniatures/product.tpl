@@ -7,7 +7,7 @@ PrestaShop for your * needs please refer to http://www.prestashop.com for more i
 <contact@prestashop.com>
   * @copyright 2007-2017 PrestaShop SA * @license https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
   * International Registered Trademark & Property of PrestaShop SA *} {block name='product_miniature_item'}
-  <div class="product-card-mobile col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+  <div class="product-card-mobile col-xs-6 col-sm- col-md-4 col-lg-3 col-xl-3">
     <article class="product-miniature js-product-miniature"
              data-id-product="{$product.id_product}"
              data-id-product-attribute="{$product.id_product_attribute}"
