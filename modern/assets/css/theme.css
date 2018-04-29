@@ -6762,7 +6762,7 @@ input:active:-moz-placeholder, textarea:active:-moz-placeholder {
 }
 
 #header .top-menu a[data-depth="0"]:hover {
-    color: #065b91;
+    color: #f3d65e;
     text-decoration: none
 }
 
@@ -10555,7 +10555,7 @@ li.product-flag:not(.discount):not(.on-sale)~li.product-flag {
 }
 
 #header .header-nav .blockcart {
-    background: #f1f1f1;
+    background: #065b91;
     height: 48px;
     padding: .75rem;
     margin-left: .9375rem;
@@ -10838,5 +10838,8 @@ li.product-flag:not(.discount):not(.on-sale)~li.product-flag {
         padding-left: 0!important;
         padding-right: 0!important
     }
+}
+.md-color{
+    color: #065b91 ! important;
 }
 
