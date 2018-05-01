@@ -30,7 +30,7 @@ PrestaShop for your * needs please refer to http://www.prestashop.com for more i
 
       <section id="wrapper">
         {hook h="displayWrapperTop"}
-        <div class="container-fluid">
+        <div class="container">
           {block name='breadcrumb'} {include file='_partials/breadcrumb.tpl'} {/block} {block name="left_column"}
           <div id="left-column"
                class="col-xs-12 col-sm-4 col-md-3">

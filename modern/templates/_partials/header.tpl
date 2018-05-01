@@ -12,7 +12,7 @@ PrestaShop for your * needs please refer to http://www.prestashop.com for more i
   </div>
   {/block} {block name='header_nav'}
   <nav class="header-nav">
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
         <div class="hidden-sm-down">
           <div class="col-md-2 col-lg-2 col-xl-2 col-xs-12">
@@ -62,7 +62,7 @@ PrestaShop for your * needs please refer to http://www.prestashop.com for more i
   <div class="padding-header"></div>
   {/block} {block name='header_top'}
   <div class="header-top hidden-sm-up">
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
         <div class="col-md-12  col-sm-12 position-static">
           <div class="row">
