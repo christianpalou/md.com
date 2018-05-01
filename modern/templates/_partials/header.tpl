@@ -12,13 +12,22 @@ PrestaShop for your * needs please refer to http://www.prestashop.com for more i
   </div>
   {/block} {block name='header_nav'}
   <nav class="header-nav">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="hidden-sm-down">
-          <div class="col-md-4 col-xs-12">
+          <div class="col-md-2 col-lg-2 col-xl-2 col-xs-12">
             {hook h='displayNav1'}
+            <div id="_desktop_logo">
+              <a href="{$urls.base_url}"
+                 style="margin-left: 10px;">
+                <img class="logo img-responsive"
+                     src="{$shop.logo}"
+                     alt="{$shop.name}">
+              </a>
+            </div>
           </div>
-          <div class="col-md-8 right-nav">
+          <div class="col-md-10 col-lg-10 col-xl-10 right-nav"
+               style="padding-right: 0px;">
             {hook h='displayNav2'}
           </div>
         </div>
@@ -50,20 +59,12 @@ PrestaShop for your * needs please refer to http://www.prestashop.com for more i
       </div>
     </div>
   </nav>
-  <div class="padding-mobile"></div>
+  <div class="padding-header"></div>
   {/block} {block name='header_top'}
-  <div class="header-top">
-    <div class="container">
+  <div class="header-top hidden-sm-up">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-md-2 hidden-sm-down"
-             id="_desktop_logo">
-          <a href="{$urls.base_url}">
-            <img class="logo img-responsive"
-                 src="{$shop.logo}"
-                 alt="{$shop.name}">
-          </a>
-        </div>
-        <div class="col-md-10 col-sm-12 position-static">
+        <div class="col-md-12  col-sm-12 position-static">
           <div class="row">
             {hook h='displayTop'}
             <div class="clearfix"></div>

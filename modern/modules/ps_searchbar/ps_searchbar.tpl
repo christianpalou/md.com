@@ -9,7 +9,8 @@ PrestaShop for your * needs please refer to http://www.prestashop.com for more i
 	* International Registered Trademark & Property of PrestaShop SA *}
 	<!-- Block search module TOP -->
 	<div id="search_widget"
-	     class="col-lg-4 col-md-5 col-sm-12 search-widget hide-search-mobile"
+	     class="col-xl-10 col-lg-9 col-md-9 col-sm-12 search-widget hide-search-mobile"
+	     style="margin-top: auto;margin-bottom: auto;"
 	     data-search-controller-url="{$search_controller_url}">
 		<form method="get"
 		      action="{$search_controller_url}">

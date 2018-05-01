@@ -5,7 +5,7 @@
 
 $(document).ready(function() {
   $("#show-searchBar").on("click", function() {
-    var search_widget = $("#search_widget");
+    var search_widget = $(".header-top  #search_widget");
     if (search_widget.is(":visible")) {
       search_widget.hide();
     } else {
